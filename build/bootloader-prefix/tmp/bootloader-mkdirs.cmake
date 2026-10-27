@@ -10,18 +10,18 @@ if(NOT EXISTS "/home/aditya/.espressif/v5.5.4/esp-idf/components/bootloader/subp
   file(MAKE_DIRECTORY "/home/aditya/.espressif/v5.5.4/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/home/aditya/workspace/RCProjectL298n/build/bootloader"
-  "/home/aditya/workspace/RCProjectL298n/build/bootloader-prefix"
-  "/home/aditya/workspace/RCProjectL298n/build/bootloader-prefix/tmp"
-  "/home/aditya/workspace/RCProjectL298n/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/aditya/workspace/RCProjectL298n/build/bootloader-prefix/src"
-  "/home/aditya/workspace/RCProjectL298n/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/aditya/workspace/RCProjectWheatstone/build/bootloader"
+  "/home/aditya/workspace/RCProjectWheatstone/build/bootloader-prefix"
+  "/home/aditya/workspace/RCProjectWheatstone/build/bootloader-prefix/tmp"
+  "/home/aditya/workspace/RCProjectWheatstone/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/aditya/workspace/RCProjectWheatstone/build/bootloader-prefix/src"
+  "/home/aditya/workspace/RCProjectWheatstone/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/aditya/workspace/RCProjectL298n/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/aditya/workspace/RCProjectWheatstone/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/aditya/workspace/RCProjectL298n/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/aditya/workspace/RCProjectWheatstone/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

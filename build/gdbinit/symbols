@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/aditya/workspace/RCProjectL298n/build/bootloader/bootloader.elf
+    add-symbol-file /home/aditya/workspace/RCProjectWheatstone/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/aditya/workspace/RCProjectL298n/build/app-template.elf
+file /home/aditya/workspace/RCProjectWheatstone/build/app-template.elf

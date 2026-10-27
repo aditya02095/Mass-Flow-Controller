@@ -1,4 +1,4 @@
-# Install script for directory: /home/aditya/workspace/RCProjectL298n/main
+# Install script for directory: /home/aditya/workspace/RCProjectWheatstone/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

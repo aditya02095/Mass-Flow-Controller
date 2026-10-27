@@ -3,4 +3,4 @@ source "/home/aditya/.espressif/v5.5.4/esp-idf/components/esp_app_format/Kconfig
 source "/home/aditya/.espressif/v5.5.4/esp-idf/components/esp_rom/Kconfig.projbuild"
 source "/home/aditya/.espressif/v5.5.4/esp-idf/components/esptool_py/Kconfig.projbuild"
 source "/home/aditya/.espressif/v5.5.4/esp-idf/components/partition_table/Kconfig.projbuild"
-source "/home/aditya/workspace/RCProjectL298n/main/Kconfig.projbuild"
+source "/home/aditya/workspace/RCProjectWheatstone/main/Kconfig.projbuild"

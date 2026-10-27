@@ -1,2 +1,2 @@
-source /home/aditya/workspace/RCProjectL298n/build/gdbinit/symbols
-source /home/aditya/workspace/RCProjectL298n/build/gdbinit/connect
+source /home/aditya/workspace/RCProjectWheatstone/build/gdbinit/symbols
+source /home/aditya/workspace/RCProjectWheatstone/build/gdbinit/connect
