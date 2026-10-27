@@ -1,0 +1,2 @@
+source /home/aditya/workspace/RCProjectWheatstone/build/bootloader/gdbinit/symbols
+source /home/aditya/workspace/RCProjectWheatstone/build/bootloader/gdbinit/connect
